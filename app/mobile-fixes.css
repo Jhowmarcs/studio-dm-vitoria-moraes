@@ -1,0 +1,6 @@
+@media(max-width:800px){
+  .nav{position:relative;padding-left:max(18px,env(safe-area-inset-left));padding-right:max(18px,env(safe-area-inset-right))}
+  .menu-button{display:grid!important;place-items:center;position:absolute;right:max(12px,env(safe-area-inset-right));top:11px;z-index:3;width:44px;height:44px;padding:0;color:var(--ink);background:transparent;border:0;cursor:pointer}
+  .menu-button svg{display:block;width:25px;height:25px;stroke:currentColor}
+  .hero-content .button.ghost{color:var(--ink);background:rgba(247,244,241,.78);border-color:rgba(39,34,32,.45);backdrop-filter:blur(8px)}
+}
