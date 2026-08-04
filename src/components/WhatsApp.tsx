@@ -1,0 +1,3 @@
+import { MessageCircle } from "lucide-react"; import { whatsappUrl } from "@/src/config/business"; import { AnalyticsLink } from "./AnalyticsLink";
+export function WhatsAppButton({label="Agendar pelo WhatsApp",event="click_whatsapp_service",message}:{label?:string;event?:string;message?:string}){return <AnalyticsLink event={event} className="button" href={whatsappUrl(message)} target="_blank"><MessageCircle size={18}/>{label}</AnalyticsLink>}
+export function FloatingWhatsApp(){return <AnalyticsLink event="click_whatsapp_floating" className="floating" href={whatsappUrl()} target="_blank" aria-label="Agendar pelo WhatsApp"><MessageCircle/></AnalyticsLink>}

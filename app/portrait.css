@@ -1,0 +1,2 @@
+.portrait{position:relative;aspect-ratio:1/1.16;overflow:hidden;background:#ddd3cd}.portrait img{object-fit:cover}.about-profile{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center;padding-top:30px}.portrait-large{aspect-ratio:1/1.12}.profile-copy{padding:20px 0;margin:0}.about-home{grid-template-columns:.85fr 1.15fr}
+@media(max-width:800px){.about-profile{grid-template-columns:1fr;gap:30px}.about-home{grid-template-columns:1fr}}

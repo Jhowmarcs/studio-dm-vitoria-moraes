@@ -1,0 +1,2 @@
+.portfolio-grid{display:grid;grid-template-columns:1fr;gap:24px}.portfolio-item{margin:0;background:#fff}.portfolio-item img{display:block;width:100%;height:auto}.portfolio-item figcaption{display:flex;justify-content:space-between;gap:24px;padding:20px 22px}.portfolio-item figcaption span{color:#665e59}.map-frame{width:100%;min-height:380px;border:0;filter:saturate(.75) contrast(.95)}
+@media(max-width:800px){.portfolio-item figcaption{flex-direction:column;gap:4px}.map-frame{min-height:330px}}

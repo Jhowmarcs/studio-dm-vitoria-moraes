@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function NotFound(){return <div className="not-found"><span>404</span><h1>Esta página não foi encontrada.</h1><p>Volte ao início para conhecer o Studio DM.</p><Link className="button" href="/">Voltar ao início</Link></div>}

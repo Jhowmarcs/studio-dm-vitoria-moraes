@@ -1,0 +1,2 @@
+import type { Metadata } from "next"; import { PortfolioPreview, FinalCta } from "@/src/components/Sections";
+export const metadata:Metadata={title:"Portfólio",description:"Veja trabalhos autorizados de sobrancelhas e cílios do Studio DM."}; export default function Page(){return <><div className="page-hero"><span>Portfólio</span><h1>Trabalhos que respeitam cada beleza.</h1><p>A galeria só publica imagens reais e autorizadas. Novos registros serão adicionados após confirmação.</p></div><PortfolioPreview/><FinalCta/></>}
